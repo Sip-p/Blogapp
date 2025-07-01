@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 import { useParams, useRouter } from 'next/navigation';
-import ClientTiptapEditor from '@/components/ClientTiptapEditor';
+import ClientTiptapEditor from '../../../../components/ClientTiptapEditor';
 
 export default function EditPostPage() {
   const { slug } = useParams();

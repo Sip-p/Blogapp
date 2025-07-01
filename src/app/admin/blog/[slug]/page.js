@@ -46,8 +46,8 @@
 //   );
 // }
 
-import { connectToDatabase } from '@/lib/db';
-import Post from '@/models/Post';
+import { connectToDatabase } from '../../../../lib/db';
+import Post from '../../../../models/Post';
 import { notFound } from 'next/navigation';
 
 export async function generateMetadata({ params }) {
