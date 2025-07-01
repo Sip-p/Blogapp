@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import { unique } from 'next/dist/build/utils';
+// import { unique } from 'next/dist/build/utils';
 const PostSchema = new mongoose.Schema(
   {
     title: { type: String, required: true ,unique: true}, // Post title

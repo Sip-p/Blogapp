@@ -6,7 +6,7 @@ const PostsBox = () => {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:3000/api/posts/allpost')
+    fetch('/api/posts/allpost')
       .then(res => res.json())
       .then(data => {
         // If your API returns an array directly:
